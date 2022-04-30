@@ -1,0 +1,77 @@
+{
+    "greetings": {
+        "name": "hello,{{name}}"
+    },
+    "forgot_password": {
+        "userNotFound": "User not found with email: {{requestedEmail}}, ",
+        "message": "Hello,\nYou are receiving his email because you has requested to reset your password. Please submit this OTP and do not share the OTP with anyone.\nOTP: {{resetOTP}}"
+    },
+    "addOwner": {
+        "message": "Greetings from Appetizar, your Restaurant account has been created successfully and your login password is:\n {{password}}\n(Please do not share)"
+    },
+    "addDriver": {
+        "message": "Password for your Appetizar driver account is:\n {{password}}\n(Please do not share)"
+    },
+    "addAggregator": {
+        "message": "Greetings from Appetizar, your Aggregator account has been created successfully and your login password is:\n {{password}}\n(Please do not share)"
+    },
+    "liveOrder_notification": {
+        "Deliver": {
+            "title": "ding ding ! Order🍽 from {{client_name}}.",
+            "body": "total amount {{currency_symbol}} {{total_amount}}.",
+            "order_details": "The customer is expecting delivery in {{eta_lower_bound}}."
+        },
+        "Dine": {
+            "title": "ding ding !Table Order🍽 from {{client_name}}.",
+            "body": "total amount {{currency_symbol}} {{total_amount}}.",
+            "order_details": "The customer is expecting the order."
+        },
+        "Pickup": {
+            "title": "ding ding ! Order🍽 from {{client_name}}.",
+            "body": "total amount {{currency_symbol}} {{total_amount}}.",
+            "order_details": "The customer will be picking up the order in between {{eta_lower_bound}} to {{eta_upper_bound}}"
+        }
+    },
+    "order_status": {
+        "Just Created":"just Created",
+		"Accepted by Restaurant":"accepted by",
+		"Accepted by Driver":"accepted by",
+		"Rejected by Restaurant":"rejected by",
+		"Assigned to Driver":"assigned to driver",
+		"Prepared":"prepared by",
+		"Served":"served by",
+		"Picked Up":"picked Up by",
+		"Delivered":"delivered by"
+    },
+    "update_notification": {
+        "from_driver": {
+            "title": "Your order is {{status}} {{driver_name}}",
+            "body": "delivery🛵 updates from ({{driver_name}})."
+        },
+        "about_driver": {
+            "title": "Your order is assigned to {{driver_name}} for delivery.",
+            "body": "Order🍽 updates from {{owner_name}}."
+        },
+        "from_owner": {
+            "title": "Your Order is {{status}} {{owner_name}}",
+            "body": "Order🍽 updates from {{owner_name}}."
+        },
+        "to_driver":{
+            "title": "{{owner_name}} has assigned you to the order.",
+            "body": "Costumer {{client_name}}  is expecting delivery in {{eta_upper_bound}}-{{eta_lower_bound}} ."
+        },
+        "delivery_request":{
+            "title": "hey! {{owner_name}} needs to deliver🛵 an order.",
+            "body": "Costumer {{client_name}} is expecting delivery in between {{eta_upper_bound}}-{{eta_lower_bound}}.\nDelivery Address: {{delivery_address}}.\nRestaurant: {{package_address}}\nlandmark:{{package_landmark}}"
+        },
+        "aggregator_request":{
+            "title": "hey! {{owner_name}} needs to deliver🛵 an order.",
+            "body": "Costumer {{client_name}} is expecting delivery in between {{eta_upper_bound}}-{{eta_lower_bound}}.\nDelivery Address: {{delivery_address}}."
+        },
+        "from_client":{
+            "title": "{{client_name}} has Canceled the order.",
+            "body": "Order updates from {{client_name}}.",
+            "order_details": "Order was cancel by client {{Order_cancel_time}}"
+        }
+    }
+}

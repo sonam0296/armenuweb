@@ -1,0 +1,11 @@
+/node_modules
+/uploads
+/config/config.json
+/config/FB_Admin_SDK_key.json
+/.env
+/sonar-project.properties
+/.scannerwork
+/package-lock.json
+/.vscode
+.idea/
+.vscode/

@@ -1,0 +1,73 @@
+{
+  "name": "appetizar",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "i-Pangram",
+    "url": "https://www.ipangram.com/"
+  },
+  "contributors": [
+    {
+      "name": "Yogesh Od"
+    },
+    {
+      "name": "Mayur Rana"
+    },
+    {
+      "name": "Darpan Kahar"
+    },
+    {
+      "name": "Mosam Shah"
+    },
+    {
+      "name": "Lalu Prasad Mahato"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.799.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-validation": "^1.0.3",
+    "faker": "^5.4.0",
+    "firebase-admin": "^9.3.0",
+    "generate-password": "^1.5.1",
+    "helmet": "^3.21.2",
+    "http-status": "^1.4.2",
+    "i18next": "^19.8.4",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.0",
+    "mongoose": "^5.10.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "nanoid": "^3.1.20",
+    "node-cron": "^3.0.0",
+    "node-qr-image": "0.0.1",
+    "nodemailer": "^6.4.11",
+    "paypal-rest-sdk": "^1.8.1",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.4.4",
+    "razorpay": "^2.0.6",
+    "stripe": "^8.126.0",
+    "twilio": "^3.52.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "description": ""
+}

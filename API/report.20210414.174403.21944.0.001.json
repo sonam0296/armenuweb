@@ -1,0 +1,157 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210414.174403.21944.0.001.json",
+    "dumpEventTime": "2021-04-14T17:44:03Z",
+    "dumpEventTimeStamp": "1618402443990",
+    "processId": 21944,
+    "threadId": null,
+    "cwd": "D:\\1 Work\\IPangram\\Project\\armenuweb\\API",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "server.js",
+      "server.js"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.3/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19042",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 43103468,
+        "nice": 0,
+        "sys": 38525734,
+        "idle": 407841906,
+        "irq": 10236984
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 19144515,
+        "nice": 0,
+        "sys": 12631343,
+        "idle": 457695109,
+        "irq": 1673203
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 63676843,
+        "nice": 0,
+        "sys": 22934671,
+        "idle": 402859453,
+        "irq": 602765
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 34176171,
+        "nice": 0,
+        "sys": 14519718,
+        "idle": 440775078,
+        "irq": 178593
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 49855828,
+        "nice": 0,
+        "sys": 21960703,
+        "idle": 417654437,
+        "irq": 434687
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 20056218,
+        "nice": 0,
+        "sys": 11969328,
+        "idle": 457445390,
+        "irq": 227781
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 41372500,
+        "nice": 0,
+        "sys": 23863859,
+        "idle": 424234593,
+        "irq": 367390
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 26740171,
+        "nice": 0,
+        "sys": 14620109,
+        "idle": 448110656,
+        "irq": 290218
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 39564015,
+        "nice": 0,
+        "sys": 22990156,
+        "idle": 426916781,
+        "irq": 490031
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 17219906,
+        "nice": 0,
+        "sys": 10434156,
+        "idle": 461816890,
+        "irq": 204109
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 32910234,
+        "nice": 0,
+        "sys": 20115218,
+        "idle": 436445500,
+        "irq": 494906
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 26053031,
+        "nice": 0,
+        "sys": 12376593,
+  

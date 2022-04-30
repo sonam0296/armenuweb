@@ -1,0 +1,5 @@
+.custom-toggle-slider:before {
+    width: 20px !important;
+    left: 3px !important;
+    bottom: 1px !important;
+}
